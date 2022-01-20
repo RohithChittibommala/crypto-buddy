@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .coin-table {
+    @apply table-auto w-full  font-noto text-left;
+  }
+  .coin-table tr:first-child {
+    @apply rounded-md;
+  }
+
+  .btn {
+    @apply flex items-center border border-blue-400 px-4 py-2 font-medium mr-2 text-blue-500 rounded-md hover:bg-gray-50;
+  }
+
+  .disabled {
+    @apply flex items-center border border-gray-200 cursor-not-allowed px-4 py-2 font-medium mr-2 text-gray-300 rounded-md hover:bg-gray-50;
+  }
+}

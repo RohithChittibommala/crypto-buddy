@@ -1,0 +1,32 @@
+{
+  "name": "crypto-buddy",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chart.js": "^3.7.0",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.0",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.34.7",
+    "react-router-dom": "^6.2.1",
+    "react-sparklines": "^1.7.0",
+    "react-spinners": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/react-sparklines": "^1.7.2",
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.1",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.8",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}
