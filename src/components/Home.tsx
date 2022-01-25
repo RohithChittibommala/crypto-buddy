@@ -64,8 +64,16 @@ const Home = () => {
       },
 
       keepPreviousData: true,
+      onSuccess: scrollToTop,
     }
   );
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 
   const {
     data: trendingSectionData,
