@@ -12,9 +12,8 @@ import {
   Legend,
 } from "chart.js";
 import { useNavigate, useParams } from "react-router-dom";
-import api from "../network";
-import Loading from "./Loading";
 import { SyncLoader } from "react-spinners";
+import api from "../network";
 
 interface Props {}
 
@@ -117,9 +116,6 @@ function CoinDetail({}: Props): ReactElement {
         },
       },
       y: {
-        // display: false,
-        // beginAtZero: true,
-
         grid: {
           display: false,
         },

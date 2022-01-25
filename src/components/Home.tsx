@@ -33,7 +33,6 @@ interface ITrendingCoin {
 }
 
 const tableHeaders = [
-  //   "Sno",
   "Coin",
   "Price",
   "Change (24h)",
